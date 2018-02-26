@@ -52,6 +52,15 @@ public class WebserviceController implements OnWebServiceResponseListener
     public void onWebServiceResponseSuccess(IWebServiceResponseVO response)
     {
         Log.d("RESPONSE", "success = " + response.toString());
+        if(response instanceof QuestionsDataProcessorVO){
+            if(response!=null){
+                Log.d("RESPONSE", "status = " + ((QuestionsDataProcessorVO) response).getStatus().toString());
+                Log.d("RESPONSE", "message = " + ((QuestionsDataProcessorVO) response).getMessage().toString());
+                Log.d("RESPONSE", "result = " + ((QuestionsDataProcessorVO) response).getResultDataVOSList().toString());
+                Log.d("RESPONSE", "comments = " + ((QuestionsDataProcessorVO) response).getResultDataVOSList().get(0).getCommentsVOArrayList().toString());
+                Log.d("RESPONSE", "comment message = " + ((QuestionsDataProcessorVO) response).getResultDataVOSList().get(0).getCommentsVOArrayList().get(0).getComment().toString());
+            }
+        }
     }
 
     @Override
