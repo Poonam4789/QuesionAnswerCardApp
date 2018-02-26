@@ -15,5 +15,6 @@ public class QuestionAnswerMainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_answer_main);
         WebserviceController.getInstance().QuestionsApi();
+        WebserviceController.getInstance().AnswersApi();
     }
 }

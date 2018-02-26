@@ -39,13 +39,13 @@ public class WebserviceController implements OnWebServiceResponseListener
     public void QuestionsApi()
     {
         Log.d("Called", "QuestionsApi Called");
-        QuestionAnswerApplication.getApplicationInstance().getWebServicesManager().servicePost(this, new QuestionsDataProcessorVO(), ApplicationURL.QUESTIONS_URL);
+        QuestionAnswerApplication.getApplicationInstance().getWebServicesManager().serviceGet(this, new QuestionsDataProcessorVO(), ApplicationURL.QUESTIONS_URL);
     }
 
     public void AnswersApi()
     {
         Log.d("Called", "AnswersApi Called");
-        QuestionAnswerApplication.getApplicationInstance().getWebServicesManager().servicePost(this, new QuestionsDataProcessorVO(), ApplicationURL.ANSWERS_URL);
+        QuestionAnswerApplication.getApplicationInstance().getWebServicesManager().serviceGet(this, new QuestionsDataProcessorVO(), ApplicationURL.ANSWERS_URL);
     }
 
     @Override
