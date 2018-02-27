@@ -1,14 +1,15 @@
 package com.demo.example.questionanswercardapp.question;
 
 import android.content.Context;
+import android.databinding.DataBindingUtil;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 import com.demo.example.questionanswercardapp.R;
+import com.demo.example.questionanswercardapp.databinding.CommentItemBinding;
 import com.demo.example.questionanswercardapp.model.CommentsVO;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class CommentAdapter extends ArrayAdapter<CommentsVO>
     {
         super(context, R.layout.comment_item, data);
         this._commentsVOArrayList = data;
-        Log.d("Comments","Comments = "+_commentsVOArrayList.size());
+        Log.d("Comments", "Comments = " + _commentsVOArrayList.size());
         this.mContext = context;
 
     }
@@ -35,14 +36,10 @@ public class CommentAdapter extends ArrayAdapter<CommentsVO>
     public View getView(int position, View convertView, ViewGroup parent)
     {
         CommentsVO commentsVO = getItem(position);
-        if (convertView == null)
-        {
-            LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(R.layout.comment_item, parent, false);
-            TextView txtName = (TextView) convertView.findViewById(R.id.commentText);
-            txtName.setText(commentsVO.getComment());
-        }
-        return convertView;
+        LayoutInflater inflater = LayoutInflater.from(getContext());
+        CommentItemBinding binding = DataBindingUtil.inflate(inflater, R.layout.comment_item, parent, false);
+        binding.setCommentsVO(commentsVO);
+        return binding.getRoot();
     }
 
     @Override
