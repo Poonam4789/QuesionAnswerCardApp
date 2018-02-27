@@ -1,10 +1,10 @@
-package com.demo.example.questionanswercardapp.WebServices.connector;
+package com.demo.example.questionanswercardapp.webServices.connector;
 
 import android.content.Context;
 
-import com.demo.example.questionanswercardapp.WebServices.model.IWebServiceResponseVO;
-import com.demo.example.questionanswercardapp.WebServices.model.OnWebServiceCompleteListener;
-import com.demo.example.questionanswercardapp.WebServices.model.OnWebServiceResponseListener;
+import com.demo.example.questionanswercardapp.webServices.model.IWebServiceResponseVO;
+import com.demo.example.questionanswercardapp.webServices.model.OnWebServiceCompleteListener;
+import com.demo.example.questionanswercardapp.webServices.model.OnWebServiceResponseListener;
 
 import org.apache.http.NameValuePair;
 import org.json.JSONObject;

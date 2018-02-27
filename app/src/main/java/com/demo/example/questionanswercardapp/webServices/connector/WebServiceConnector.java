@@ -1,4 +1,4 @@
-package com.demo.example.questionanswercardapp.WebServices.connector;
+package com.demo.example.questionanswercardapp.webServices.connector;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -33,11 +33,11 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
-import com.demo.example.questionanswercardapp.WebServices.Error.HttpConnetionError;
-import com.demo.example.questionanswercardapp.WebServices.Util.HttpClientFactory;
-import com.demo.example.questionanswercardapp.WebServices.model.IWebServiceResponseVO;
-import com.demo.example.questionanswercardapp.WebServices.model.OnWebServiceCompleteListener;
-import com.demo.example.questionanswercardapp.WebServices.model.OnWebServiceResponseListener;
+import com.demo.example.questionanswercardapp.webServices.Error.HttpConnetionError;
+import com.demo.example.questionanswercardapp.webServices.Util.HttpClientFactory;
+import com.demo.example.questionanswercardapp.webServices.model.IWebServiceResponseVO;
+import com.demo.example.questionanswercardapp.webServices.model.OnWebServiceCompleteListener;
+import com.demo.example.questionanswercardapp.webServices.model.OnWebServiceResponseListener;
 
 /**
  * Created by poonampatel on 25/02/18.

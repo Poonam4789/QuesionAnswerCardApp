@@ -1,4 +1,4 @@
-package com.demo.example.questionanswercardapp.WebServices.Util;
+package com.demo.example.questionanswercardapp.webServices.Util;
 
 /**
  * Created by poonampatel on 25/02/18.

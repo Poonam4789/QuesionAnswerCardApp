@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.util.Log;
 
-import com.demo.example.questionanswercardapp.WebServices.connector.WebServicesManager;
+import com.demo.example.questionanswercardapp.webServices.connector.WebServicesManager;
 import com.demo.example.questionanswercardapp.network.NetworkChangeReceiver;
 
 /**

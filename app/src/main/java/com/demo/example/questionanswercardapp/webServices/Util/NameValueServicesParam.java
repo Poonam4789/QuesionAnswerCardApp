@@ -1,4 +1,4 @@
-package com.demo.example.questionanswercardapp.WebServices.Util;
+package com.demo.example.questionanswercardapp.webServices.Util;
 
 import org.apache.http.NameValuePair;
 

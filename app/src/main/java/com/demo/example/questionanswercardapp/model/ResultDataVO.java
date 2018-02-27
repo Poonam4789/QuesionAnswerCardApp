@@ -2,7 +2,7 @@ package com.demo.example.questionanswercardapp.model;
 
 import android.util.Log;
 
-import com.demo.example.questionanswercardapp.WebServices.Util.DataList;
+import com.demo.example.questionanswercardapp.webServices.Util.DataList;
 
 import org.json.JSONArray;
 import org.json.JSONException;

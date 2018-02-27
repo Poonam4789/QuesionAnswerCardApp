@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QuestionAnswerCardApp</string>
+    <string name="answers">Answers</string>
 </resources>

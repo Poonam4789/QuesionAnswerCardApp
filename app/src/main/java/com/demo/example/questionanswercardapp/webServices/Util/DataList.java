@@ -1,7 +1,7 @@
-package com.demo.example.questionanswercardapp.WebServices.Util;
+package com.demo.example.questionanswercardapp.webServices.Util;
 
 
-import com.demo.example.questionanswercardapp.WebServices.model.OnDataListUpdateListener;
+import com.demo.example.questionanswercardapp.webServices.model.OnDataListUpdateListener;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

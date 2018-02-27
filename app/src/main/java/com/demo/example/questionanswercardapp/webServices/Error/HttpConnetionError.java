@@ -1,4 +1,4 @@
-package com.demo.example.questionanswercardapp.WebServices.Error;
+package com.demo.example.questionanswercardapp.webServices.Error;
 
 /**
  * Created by poonampatel on 25/02/18.

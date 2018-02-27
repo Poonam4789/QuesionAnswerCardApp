@@ -1,7 +1,7 @@
-package com.demo.example.questionanswercardapp.WebServices.model;
+package com.demo.example.questionanswercardapp.webServices.model;
 
 
-import com.demo.example.questionanswercardapp.WebServices.connector.WebServiceConnector;
+import com.demo.example.questionanswercardapp.webServices.connector.WebServiceConnector;
 
 /**
  * Created by poonampatel on 25/02/18.

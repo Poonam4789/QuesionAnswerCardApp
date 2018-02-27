@@ -2,12 +2,14 @@ package com.demo.example.questionanswercardapp.model;
 
 import android.util.Log;
 
-import com.demo.example.questionanswercardapp.WebServices.Util.DataList;
-import com.demo.example.questionanswercardapp.WebServices.model.IWebServiceResponseVO;
+import com.demo.example.questionanswercardapp.webServices.Util.DataList;
+import com.demo.example.questionanswercardapp.webServices.model.IWebServiceResponseVO;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /**
  * Created by poonampatel on 27/02/18.
@@ -16,7 +18,7 @@ import org.json.JSONObject;
 public class QuestionsDataProcessorVO implements IWebServiceResponseVO
 {
     ResultDataVO _resultDataVO;
-    private DataList<ResultDataVO> _resultDataVOSList;
+    private ArrayList<ResultDataVO> _resultDataVOSList;
     private String _status;
     private String _message;
 
@@ -52,7 +54,7 @@ public class QuestionsDataProcessorVO implements IWebServiceResponseVO
         }
     }
 
-    public DataList<ResultDataVO> getResultDataVOSList()
+    public ArrayList<ResultDataVO> getResultDataVOSList()
     {
         return _resultDataVOSList;
     }

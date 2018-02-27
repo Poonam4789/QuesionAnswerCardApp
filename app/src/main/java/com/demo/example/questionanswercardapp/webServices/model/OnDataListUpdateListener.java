@@ -1,4 +1,4 @@
-package com.demo.example.questionanswercardapp.WebServices.model;
+package com.demo.example.questionanswercardapp.webServices.model;
 
 /**
  * Created by poonampatel on 25/02/18.
