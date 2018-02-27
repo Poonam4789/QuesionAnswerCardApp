@@ -36,7 +36,7 @@
                 android:padding="5dp"
                 android:singleLine="true"
                 android:text="Question"
-                android:textColor="@color/medium_grey"
+                android:textColor="@color/darker_grey"
                 android:textSize="18dp"
                 android:textStyle="bold"/>
 
@@ -47,6 +47,7 @@
                 android:layout_below="@+id/user_image"
                 android:padding="10dp"
                 android:text="Comments"
+                android:textColor="@color/medium_grey"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
 
@@ -65,6 +66,7 @@
                 android:layout_below="@+id/user_image"
                 android:padding="10dp"
                 android:text="Answers"
+                android:textColor="@color/medium_grey"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
 
